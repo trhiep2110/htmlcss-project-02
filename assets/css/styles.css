@@ -395,7 +395,7 @@ a {
 
 .popular .course-item .book-btn:hover {
     color: #fff;
-    background: var(--primary-color);
+    background: #ffb900;
 }
 
 .line-clamp {
@@ -420,8 +420,10 @@ a {
     background: #2e2100;
 }
 
-.feedback .feedback-item {
+.feedback-item {
     display: flex;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .feedback .feedback-item .avatar {
@@ -479,4 +481,9 @@ a {
     font-style: italic;
     font-weight: 400;
     line-height: 1.54;
+}
+
+.feedback-list {
+    display: flex;
+    overflow: hidden;
 }
