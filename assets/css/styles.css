@@ -49,9 +49,9 @@ a {
 .header {
     background: #fffcf4;
 }
-.header .fixed {
+.header.fixed {
     position: sticky;
-    top: -36px;
+    top: -28px;
     z-index: 1;
 }
 
@@ -125,6 +125,7 @@ a {
     height: 685px;
     border-radius: 20px;
     object-fit: cover;
+    vertical-align: bottom;
 }
 
 .hero .hero-summary {
@@ -335,7 +336,7 @@ a {
 }
 
 .course-list .course-item .thumb {
-    width: 370px;
+    width: calc(100% + 2px);
     height: 278px;
     object-fit: cover;
     border-radius: 12px 12px 0px 0px;
